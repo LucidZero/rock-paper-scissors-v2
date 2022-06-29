@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="style.css">
+  <script src="javascript.js" defer></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+<div id=bodyBox>
+<button id = "startButtonElement" onclick = "startGame()">Start a New Game</button>
+<div id="choices">
+<button id="playerRock" onclick="roundStart(0)">Rock</button>
+<button id="playerPaper" onclick="roundStart(1)">Paper</button>
+<button id="playerScissors" onclick="roundStart(2)">Scissors</button>
+</div>
+<div id="textElements">
+    
+<p id="outcome"></p>
+<p id="currentRoundElement"></p>
+<p id="wonRoundsCounterElement"></p>
+<p id="whoWonRoundElement"></p>
+<p id="whoChoseWhatElement"></p>
+</div>
+</div>
+</body>
+</html>
